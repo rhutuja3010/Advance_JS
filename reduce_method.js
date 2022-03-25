@@ -1,4 +1,4 @@
-'use strict';
+
 //-------sum
 
 // let array=[3,4,6,1];
@@ -25,10 +25,10 @@
 // let array=[5,5,5,5,5]
 // let sum=array.reduce((accum,curr)=>{
 //     c=accum+curr
-//     return(c)
+//     return c
 // },0)
 
-// console.log(avg/5)
+// console.log(c/5)
 
 
 
@@ -36,11 +36,12 @@
 
 
 
-
+// let array=[3,2,8,5]
 // let avg=array.reduce((accum,cur)=>{
 //     // avg2=accum+cur
+//     console.log(cur)
 //     return avg2=accum+cur
-// })
+// },2)
 // console.log(avg2)
 
 
@@ -60,6 +61,6 @@
 //   )node 
 
 
-const x = Symbol('hey');
-console.log(x.description); // hey
+// const x = Symbol('hey');
+// console.log(x.description); // hey
   
