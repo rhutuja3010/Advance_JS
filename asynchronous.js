@@ -1,3 +1,4 @@
+
 const fun2 = () => {
     setTimeout(() => {
         console.log("fun2 is starting")
@@ -8,6 +9,4 @@ fun1 = () => {
     fun2()
     console.log("fun2 is ending")
 }
-
 fun1()
-// function() 

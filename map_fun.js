@@ -28,11 +28,11 @@
 
 
 
-// const numbers = [65, 44, 12, 4];
-// const newArr = numbers.map(myFunction)
-// console.log(newArr)
+const numbers = [65, 44, 12, 4];
+const newArr = numbers.map(myFunction)
+console.log(newArr)
 
-// function myFunction(num) {
-//   return num * 10;
-// }
+function myFunction(num) {
+  return num * 10;
+}
 
