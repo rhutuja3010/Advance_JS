@@ -52,3 +52,26 @@
 //     console.log(a + b + c)
 // }
 // sum(1, 2, 3)
+
+
+
+//EXAMPLE OF SPEAD PARAMETER 
+
+// let a=[1,2,3,4]
+// let c=[12,13]
+// let b=[...a,5,6,...c,90]
+// console.log(b)
+
+// let a=[1,2,3]
+// a[3]=5
+// console.log(a)
+
+// let a='rhutuja'
+// let b=[];
+// for (let i=0;i<a.length;i++){
+//     for(let j=0;j<a[i].length;j++){
+//             b.push(a[i][j])
+//     }
+// }console.log(b)
+
+
