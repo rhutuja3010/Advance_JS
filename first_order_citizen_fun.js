@@ -90,3 +90,16 @@
 //     }
 // }
 // obj.city_name()
+
+// var hello = function(){
+//     return "hello world"
+//   }
+  
+//   console.log(hello())
+
+
+function hello(fn){
+    fn()
+  }
+  
+hello(function() { console.log("hello world") })

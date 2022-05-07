@@ -38,10 +38,10 @@
 //     console.log(this.fname+" "+this.lname,"from",city,"fav",sub,lang,age)   
 // }
 // fullname.call(name1,"palghar","maths","marathi",21)
-// // fullname.call(name1,["palghar","maths","marathi",21])
-// // let my=fullname.bind(name1,"palghar","maths","marathi",21)
-// // console.log(my)
-// // my()
+// fullname.call(name1,["palghar","maths","marathi",21])
+// let my=fullname.bind(name1,"palghar","maths","marathi",21)
+// console.log(my)
+// my()
 // let name2={
 //     fname:"Veda",
 //     lname:"Patil"
@@ -51,7 +51,7 @@
 // let m1=fullname.bind(name2,"Thane","sanskrit","english",17)
 // console.log(m1)
 // m1()
-
+ 
 
 // let name1={
 //     fname:"Rhutuja",
@@ -219,3 +219,26 @@
 //     fname:"Rhutuja2",
 //     lname:"Patil2"
 // }
+
+
+
+// let x={
+//     a:1,
+//     b:2}
+// var c=function (name2,sub){
+//         console.log(`${this.a},${this.b}, ${name2},${sub}`) }       
+// c.apply(x,["veda","maths"])
+
+
+let obj={
+    fname:"Rhutuja",
+    lname:"Patil"
+}
+let fun=function (sis,hobby) {
+    console.log(`My name is ${this.fname} and surname is ${this.lname} sister is ${sis} ,hobby is ${hobby} `)
+}
+fun.call(obj,"veda","Reading")
+fun.apply(obj,["veda","Reading"])
+let s=fun.bind(obj,"veda","Reading")
+s()
+

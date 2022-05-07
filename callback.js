@@ -28,3 +28,13 @@
 //     console.log(`Hii how are you`)
 // }
 // fun1("Rhutuja",fun2)
+
+
+let fun1=(friend,callfriend)=>{
+    console.log(`I Am busy Im talk to ${friend}`)
+    callfriend()
+}
+let fun2=()=>{
+    console.log(`I will call you latter`)
+}
+fun1("Rhutuja",fun2)

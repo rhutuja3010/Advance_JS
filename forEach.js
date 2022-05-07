@@ -1,5 +1,14 @@
-const fruits = ["apple", "orange", "cherry"];
-fruits.forEach(ele=>console.log(ele));
+// const fruits = ["apple", "orange", "cherry"];
+// fruits.forEach(ele=>console.log(ele));
+
+let students = ['John', 'Sara', 'Jack'];
+// using forEach
+students.forEach(myFunction);
+
+function myFunction(item) {
+
+    console.log(item);
+}
 
 
 

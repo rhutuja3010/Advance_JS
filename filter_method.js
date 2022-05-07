@@ -25,13 +25,13 @@
 
 
 
-function isBigEnough(value) {
-    return value >= 10
-  }
+// function isBigEnough(value) {
+//     return value >= 10
+//   }
   
-  let filtered = [12, 5, 8, 130, 44].filter(isBigEnough)
-  // filtered is [12, 130, 44]
-  console.log(filtered)
+//   let filtered = [12, 5, 8, 130, 44].filter(isBigEnough)
+//   // filtered is [12, 130, 44]
+//   console.log(filtered)
   
 
 
@@ -47,6 +47,15 @@ function isBigEnough(value) {
 // }
 
 // console.log(array.filter(isPrime)); // [2, 3, 5, 7, 11, 13]
+
+
+let a=[10,23,44,56,12,34]
+let b=a.filter(fun)
+console.log(b)
+function fun(age) {
+  return age>=18
+}
+fun()
 
 
 

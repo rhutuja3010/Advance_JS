@@ -28,11 +28,35 @@
 
 
 
-const numbers = [65, 44, 12, 4];
-const newArr = numbers.map(myFunction)
-console.log(newArr)
+// const numbers = [65, 44, 12, 4];
+// const newArr = numbers.map(myFunction)
+// console.log(newArr)
 
-function myFunction(num) {
-  return num * 10;
+// function myFunction(num) {
+//   return num * 10;
+// }
+
+
+// let a=[1,2,3,4]
+// let b=a.map(fun)
+// console.log(b)
+// function fun(i){
+//   return i*10
+// }fun()
+
+
+
+// let a=[1,2,3,4]
+// function duble(i) {
+//   return i*2
+// }
+// const b=a.map(duble)
+// console.log(b)
+
+
+let a=[1,2,3,4]
+let b=a.map(fun)
+console.log(b)
+function fun(i) {
+  return i*10
 }
-

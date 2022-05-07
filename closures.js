@@ -1,5 +1,5 @@
 // function abc() {
-//     str = "hello";
+//     str="hello";
 //     return function (params2) {
 //         return params2 + str;
 //     }
@@ -21,7 +21,7 @@
 // z()
 
 
-// //global scope//
+//global scope//
 // var e = 10;
 // function sum(a){
 //   return function(b){
@@ -106,16 +106,53 @@
 // console.log(sum4)
 
 
-////with_anonymous_function//
-function sum(a) {
-  return function(b) {
-    return function (c) {
-      return function (d) {
-        return a+b+c+d
-        }
-      }
+// ////with_anonymous_function//
+// function sum(a) {
+//   return function(b) {
+//     return function (c) {
+//       return function (d) {
+//         return a+b+c+d
+//         }
+//       }
+//     }
+// }
+// console.log(sum(1)(2)(3)(4))
+
+// function randomFunc(){
+//   var obj1 = {name:"Vivian", age:45};
+
+//   return function(){
+//     console.log(obj1.name + " is "+ "awesome"); // Has access to obj1 even when the randomFunc function is executed
+
+//   }
+// }
+
+// var initialiseClosure = randomFunc(); // Returns a function
+
+// initialiseClosure(); 
+
+
+
+function show() {
+    a="a"
+    function fun() {
+        b="b"
+        console.log(b)
+        console.log(a)
     }
+    fun()
 }
-console.log(sum(1)(2)(3)(4))
+show()
 
 
+
+// function sum(x) {
+//     return function(a){
+//         return function(b){
+//             return function(c){
+//                 return x+a+b+c
+//             }
+//         }
+//     }
+// }
+// console.log(sum(1)(2)(3)(2))

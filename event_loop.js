@@ -15,26 +15,26 @@
 
 
 
-// console.log('Hi!');
+console.log('Hi!');
 
-// setTimeout(() => {
-//     console.log('Execute immediately.');
-// }, 0);
+setTimeout(() => {
+    console.log('Execute immediately.');
+}, 3000);
 
-// console.log('Bye!');
+console.log('Bye!');
 
 
 
-function task(message) {
-    // emulate time consuming task
-    let n = 10000000000;
-    while (n > 0){
-        n--;
-    }
-    console.log(message);
-}
+// function task(message) {
+//     // emulate time consuming task
+//     let n = 1000000;
+//     while (n > 0){
+//         n--;
+//     }
+//     console.log(message);
+// }
 
-console.log('Start script...');
-task('Call an API');
-console.log('Done!');
-// Code language: JavaScript (javascript)
+// console.log('Start script...');
+// task('Call an API');
+// console.log('Done!');
+// // Code language: JavaScript (javascript)

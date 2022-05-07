@@ -43,17 +43,39 @@
 
 //Rename the Keys
 
-let biodata = {
-    name1: "Rhutuja",
-    surname: "Patil",
-    sub: {
-        sub1: "Chemistry",
-        sub2: "Maths"
+// let biodata = {
+//     name1: "Rhutuja",
+//     surname: "Patil",
+//     sub: {
+//         sub1: "Chemistry",
+//         sub2: "Maths"
+//     }
+// }
+// let {
+//     name1: name2,
+//     surname,
+//     sub
+// } = biodata;
+// console.log(`my name is ${name2} sub is ${sub.sub1}`)
+
+
+
+
+
+
+
+
+
+
+let o={
+    'a':1,
+    'b':2,
+    'c':3,
+    'd':4,
+    'e':{
+        'x':10,
+        'y':20
     }
 }
-let {
-    name1: name2,
-    surname,
-    sub
-} = biodata;
-console.log(`my name is ${name2} sub is ${sub.sub1}`)
+let {a,b,c,d,e}=o
+console.log(`${a} ${e.x}`)
