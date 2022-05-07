@@ -300,6 +300,41 @@
 # a="3"
 # print(type(a))
 
+# a=1
+# if True:
+#     b=a<=10
+#     print(a)
+    
+# a=[1,2,3]
+# b=[4,5,6]
+# print(a+b)
+
+
+# print(type(("rh",)))
+
+
+# a=[1,2,3,4,5,6,7,8,8]
+# print(a[-4:])
+# print(a[0:7:5])
+# print(a[-5:-3])
+# print(a[-1::-1])
+# print(a[::-1])
 
 
 
+# a="rhutuja"
+# for i in range((len(a)-1),-1,-1):
+#     # print()
+#     # print(a[i],end="")
+#     print(a[i],end=" ")
+
+
+l=[]
+n=(input("enter the names :"))
+for i in range(n):
+    print("names :",i+1)
+    l.append(input())
+s=set(l)
+l=list(s)
+for i in l:
+    print(i)

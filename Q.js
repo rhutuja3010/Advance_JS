@@ -125,9 +125,32 @@
 // }
 // console.log(checkPalindrome("abba"))
 
-console.log(true &&"0")
+// console.log(true &&"0")
+
+// let ourStr = "I come first. ";
+// ourStr += "I come second.";
+// console.log(ourStr)
+
+// let a=["rhutuja","rhutu","67","4","sonu"]
+// max=0
+// for (let i=1;i<a.length;i++){
+//     let l=a[i].length
+//     if (l>max){
+//         max=l
+//     }
+// }console.log(max)
 
 
+function fib(n) {
+    if(n==2){
+        return 1
+    }else if(n==1){
+        return 0
+    }else{
+        return fib(n-1)+fib(n-2)
+    }
+}
+console.log(fib(5))
 
 
 

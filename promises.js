@@ -4,7 +4,7 @@
 //     if(x === y) {
 //       resolve("r");
 //     } else {
-//       reject();
+//       reject("t");
 //     }
 //   });
 // async function fun(){
@@ -13,6 +13,25 @@
 //     console.log(a)
 // }
 // fun()
+
+
+
+
+// const check =new Promise(function(resolve,reject){
+//     setTimeout(()=>{
+//         // console.log("yes")
+//         let a=10;
+//         if (a!=10){
+//             resolve("true")
+//         }    
+//     },3000)
+// }).then((r)=>{
+//     console.log(r)
+
+// }).catch((q)=>{
+//     console.log(q)
+// })
+
 
 
      
@@ -58,14 +77,22 @@
 
 // const check=new Promise((resolve,reject)=>{
 //     setTimeout(()=>{
-//         let roll_no=[1,2,3]
+//         let a=10
+//         if (a==10){
+//             resolve("true")
+//         }else{
+//             reject("false")
+//         }
 //         // resolve (roll_no)
 //         // reject("no")
-//     },2000)
-// })
-// .catch((error)=>{
-//     console.log(error)
-// })
+//     },1000)
+// }).then(()=>{
+//     console.log("syntax")
+// },()=>{console.log("error")})
+// // .catch(()=>{
+// //     console.log("error")
+// // })
+
 
 
 // function resolveAfter2Seconds() {
@@ -231,3 +258,49 @@
 //     console.log(rollno)
 // })
 
+
+
+// const fun=new Promise(function (resolve,reject) {
+//     let a ='rhutu' ;
+//     let b='rhutu'
+//     if(a!==b){
+//         resolve("correct")
+//     }else{
+//         reject("wrong")
+//     }
+
+// }).then(function(){
+//     console.log("yes")
+// }).catch(function () {
+//     console.log("no")
+// })
+
+
+// let fun=new Promise(function(resolve,reject){
+//     let a=10;
+//     let b=20;
+//     if (a===b){
+//         resolve('success')
+//     }else{
+//         reject("angy")
+//     }
+// }).then(function () {
+//     console.log('yes')
+// }).catch(function(){
+//     console.log('no')
+// })
+
+
+let check=new Promise(function(resolve,reject){
+    let a="Rhutuja"
+    let b="Rhutuja"
+    if(a===b){
+        resolve()
+    }else{
+        reject()
+    }
+}).then(function () {
+    console.log("success")
+}).catch(function () {
+    console.log("loose")
+})

@@ -64,3 +64,11 @@
 // const x = Symbol('hey');
 // console.log(x.description); // hey
   
+
+let a=[1,2,3,4,5]
+let b=a.reduce(fun)
+// console.log(b)
+function fun(prev,current) {
+    console.log(prev)
+    return prev+current
+}fun()
